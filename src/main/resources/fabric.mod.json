@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "moneygoal",
+  "version": "${version}",
+  "name": "Money Goal",
+  "description": "Zeigt dein Geldziel als Fortschrittsleiste im HUD an. Rein visuell, clientseitig, ohne Spielvorteil.",
+  "authors": ["du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.moneygoal.MoneyGoalClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
